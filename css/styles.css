@@ -150,15 +150,6 @@ p {
 
 
 
-.mt4-modal-message__close {
-    float: unset;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    color: #fff;
-    transition: all .2s ease-in;
-}
-
 
 .mt4-modal-message__icon-close {
     fill: #fff;
