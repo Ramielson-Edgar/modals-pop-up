@@ -86,7 +86,7 @@ p {
 .mt4-modal-message__header::before {
     position: absolute;
     top: -50px;
-    left: 0;
+    left: 100px;
 
     display: block;
     content: '';
@@ -163,6 +163,13 @@ p {
 .mt4-modal-message__icon-close {
     fill: #fff;
 
+}
+
+@media (max-width:991.98px) {
+    .mt4-modal-message__header::before {
+        left: 0;
+    }
+    
 }
 
 @media (max-width: 575.98px) {
