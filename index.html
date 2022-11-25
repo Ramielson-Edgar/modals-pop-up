@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+ 
+
+  <!--MODAL MT4-->
+  <section class="section" >
+    <div class="container">
+ 
+      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
+        Launch static backdrop modal
+      </button>
+   
+      <div class="modal mt4-modal-message fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content mt4-modal-message__content">
+  
+            <div class="modal-header mt4-modal-message__header">
+              <h5 class="modal-title mt4-modal-message__title" id="staticBackdropLabel">Reminder
+              </h5>
+              <button type="button" class="close mt4-modal-message__close" data-dismiss="modal" aria-label="Close">
+                <svg class="mt4-modal-message__icon-close" width="20" height="20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M256 0C114.615 0 0 114.615 0 256C0 397.385 114.615 512 256 512C397.385 512 512 397.385 512 256C512 114.615 397.385 0 256 0ZM327.115 365.904L256 294.789L184.885 365.904L146.096 327.115L217.211 256L146.096 184.885L184.885 146.096L256 217.211L327.115 146.096L365.904 184.885L294.789 256L365.904 327.115L327.115 365.904Z" />
+                  </svg>
+              </button>
+            </div>
+  
+            <div class="modal-body mt4-modal-message__body">
+              <h5 class="modal-title mt4-modal-message__body-title" id="staticBackdropLabel">As Apple Deleted MT4 Trading Platform From The App Store 
+              </h5>
+              <p class="mt4-modal-message__body-description">
+
+                we recommend for IOS users to use <a class="mt4-modal-message__body-link" href="#">allpips</a> platform as it is a web trading platform you can use on any device with access to a browser and internet connection
+
+              </p>  
+              
+            </div>
+  
+            <div class="modal-footer mt4-modal-message__footer">
+              <button type="button" class="btn-base btn-base-md btn-blue" data-dismiss="modal">Open a Live Account </button>
+              <button type="button" class="btn-base btn-base-md btn-green" data-dismiss="modal">Open a Live Demo</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+
+
+ 
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+
+  <script>
+    $(document).ready(function () {
+      $("[data-toggle=tooltip").tooltip({
+        delay: { "show": 600, "hide": 100 },
+        trigger: 'hover focus',
+        customClass: 'share-tooltip',
+      });
+
+    })
+  </script>
+</body>
+
+</html>
